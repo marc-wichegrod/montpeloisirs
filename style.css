@@ -1,0 +1,85 @@
+*{
+	margin:auto;
+	padding:auto;
+
+
+}
+html{
+	background-image:url("../images/fond.jpg");
+}
+body{
+	background-color:#003366;
+	margin:auto;
+	width:900px;
+}
+#connexion{
+	text-align:right;
+}
+#connexion a{
+	color:#ccffff;
+	text-decoration: none;
+}
+a:hover{
+	color:#80ffff;
+
+}
+/******************************** Titre *********************************/
+h1{
+	font-family:Brush Script Std, Brush Script MT, cursive;
+	font-size:80px;
+	background:-webkit-linear-gradient(#80ffff, #003366);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	padding-bottom:20px;
+	text-align:left;
+} 
+#entete img{
+	margin-right:17%;
+	background-color:#003366;
+	width:60px;
+}
+/***************************** Navigation  *******************************/
+
+
+div ul{
+    list-style-type: none;
+}
+a
+{
+    font-size: 0.9em;
+    color: #ccffff;
+    text-decoration: none;
+}
+#menu {
+	text-align: center;
+	border-bottom:1px solid #80ffff;
+	border-top:1px solid #80ffff;
+}
+#menu li {
+	display: inline-block;
+    margin-right: 80px;
+	padding-left: 0.7em;
+	font-size: 1.2em;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#menu a:hover{
+	color:#003366;
+	background-color:#ff0066;
+	margin: 15px 5px 15px 5px;
+}
+
+/******************************* Text **************************************/
+
+p{
+	text-align:center;
+	padding:30px 25px 20px 25px; 
+	color:#ccffff;
+}
+img{
+	margin-left:15%;
+}
+
+fieldset{
+	color:white;
+}
